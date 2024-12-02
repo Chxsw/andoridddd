@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14217163786",
+    "project_id": "vfirebasee",
+    "storage_bucket": "vfirebasee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14217163786:android:8c789c9b62a8d62bb8dbf3",
+        "android_client_info": {
+          "package_name": "com.stomas.vappfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA67xbKYiQBeR1IFTtbwuVyXGV6wzh4oJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

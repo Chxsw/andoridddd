@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="PagActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:text="¡¡ -- Albumes en venta -- !!"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:text="¡¡ -- Todo a: $9,99 -- !!"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="#EA0202"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/weekn1" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/weekn2"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/weekn3"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>

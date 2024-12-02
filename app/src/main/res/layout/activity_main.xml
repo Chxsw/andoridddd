@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:background="#F0C8BC">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bienvenido_a_vmusicc"
+            android:textSize="29sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="20dp"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Inicio de Sesion VM"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="/correo"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:layout_marginTop="170dp"
+            tools:ignore="Autofill" />
+
+
+        <EditText
+            android:id="@+id/passworr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="/contraseña"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/loginB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceder"
+            android:layout_marginTop="10dp"
+            android:onClick="OnClickAcceder" />
+
+
+        <!-- Imagen de audífonos -->
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/audifonos" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
